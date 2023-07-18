@@ -78,7 +78,7 @@ function Navigation({ userName, email }) {
     <TopNavigation
       identity={{
         href: "/",
-        title: "Amazon Transcribe Post-Call Analytics",
+        title: "Contact-IQ Transcribe Post-Call Analytics",
         iconName: "settings"
       }}
       i18nStrings={{
@@ -99,8 +99,8 @@ function Navigation({ userName, email }) {
         },
         {
           type: "button",
-          text: "PCA Blog Post",
-          href: "https://amazon.com/post-call-analytics",
+          text: "Recording Upload",
+          href: "https://contact-iq.com/post-call-analytics",
           external: true,
           externalIconAriaLabel: " (opens in a new tab)"
         },
@@ -123,16 +123,8 @@ function Navigation({ userName, email }) {
               items: [
                 {
                   id: "documentation",
-                  text: "GitHub/Readme",
-                  href: "https://github.com/aws-samples/amazon-transcribe-post-call-analytics/",
-                  external: true,
-                  externalIconAriaLabel:
-                    " (opens in new tab)"
-                },
-                {
-                  id: "feedback",
-                  text: "Blog Post",
-                  href: "https://amazon.com/post-call-analytics",
+                  text: "Contact-IQ/Readme",
+                  href: "https://contact-iq.com/readme/",
                   external: true,
                   externalIconAriaLabel:
                     " (opens in new tab)"
